@@ -1,0 +1,6 @@
+# Bảo mật - chặn truy cập trực tiếp vào file PHP trong config/
+# Yêu cầu D5
+
+<Files "*">
+    Require all denied
+</Files>
