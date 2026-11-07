@@ -1,0 +1,12 @@
+# Trang 404 tùy chỉnh
+# Yêu cầu D5
+
+ErrorDocument 404 /minishop/404.php
+
+# Bảo mật cơ bản
+Options -Indexes
+
+# Chặn truy cập file nhạy cảm
+<FilesMatch "\.(env|sql|log)$">
+    Require all denied
+</FilesMatch>
