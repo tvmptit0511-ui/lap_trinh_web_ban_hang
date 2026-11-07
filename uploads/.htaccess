@@ -1,0 +1,6 @@
+# Bảo mật - cấm chạy PHP trong thư mục uploads
+# Yêu cầu D3
+
+<FilesMatch "\.php$">
+    Require all denied
+</FilesMatch>
